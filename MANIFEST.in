@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include moving_balance *.css
+recursive-include moving_balance *.csv
+recursive-include moving_balance *.html
+recursive-include moving_balance *.ico
+recursive-include moving_balance *.js
+recursive-include moving_balance *.json
+recursive-include moving_balance *.md
+recursive-include moving_balance *.png
+recursive-include moving_balance *.py
+recursive-include moving_balance *.svg
+recursive-include moving_balance *.txt
+recursive-exclude moving_balance *.pyc
